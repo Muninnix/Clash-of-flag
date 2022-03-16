@@ -1,0 +1,105 @@
+body {
+
+width:100vw;
+height: 100vh;
+margin:0;
+
+    /*background-image: url(https://img.succesone.fr/2019/03/dayz-game-preview_BSR9NLHVF1KL_header.jpg);*/
+	 background-image: url(https://static.wikia.nocookie.net/armedassault/images/5/50/Arma3-OPREP-Screenshot-25.jpg/revision/latest/scale-to-width-down/1920?cb=20180614130656);
+	
+	background-size: 180%;
+	backdrop-filter:blur(1.5rem);
+}
+.text orange{color: #cc8c2b;}
+.text cyan{color: #6ce6e3;}
+.text Gray{color: #6c6f80;}
+.text cofShadow { text-shadow:0px 4px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
+
+.borderp {
+   border: 4mm ridge rgba(200, 200, 200,0.5);
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255,0.5);
+	 background-image: linear-gradient( rgba(0, 0,0, 0) 0%,rgba(157, 209, 239, 0.5) 100%);
+}
+.text outline{text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
+.gradient {
+  background-color: #f3ec78;
+    background-image: linear-gradient(0deg,#818a80 ,#68736c 15%, #f0e9c9 80%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	filter: drop-shadow(0px 4px #000);
+	
+}
+.gradient2{  background-color: #f3ec78;
+    background-image: linear-gradient(0deg,#3f87a6 ,#ebf8e1 2%, #f69d3c 80%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	filter: drop-shadow(1px 0px 0 #000) drop-shadow(1px 0px 0 #000) drop-shadow(-1px 2px 0 #000) drop-shadow(1px 2px 0 #000);
+	}
+
+
+/** Premier paragraphe**/
+
+.intro {
+    margin-top: -3.6%;
+}
+
+
+/** Partie Page à propos**/
+
+.rond {
+    border-radius: 50%;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.parent {
+  width: 15vh;
+  height: 15vh;
+  overflow: hidden;
+	display:inline; 
+  
+}
+
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+.margt {
+    margin-top: 10%;
+}
+h3{
+    color:  azure;
+}
+a{
+    text-decoration: none;
+    font-size: 150%;
+    color: azure;
+}
+a:hover {
+    color: #198754;
+}
+
+.mglobal {
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+.marp {
+  margin-left: 5%;
+  margin-right: 5%;
+}
